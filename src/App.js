@@ -3,6 +3,7 @@ import './App.css';
 import tokyo from "./images/tokyo.jpg";
 import newyork from "./images/newyork.jpg";
 import london from "./images/londres.jpg";
+import rio from "./images/rio.jpg";
 
 
 
@@ -17,8 +18,8 @@ function App() {
 
           <a className="navlinks" href="#"> Home </a>
           <a className="navlinks" href="#"> Pacotes </a>
-          <a className="navlinks" href="#"> Passagens </a>
           <a className="navlinks" href="#"> Destinos </a>
+          <a className="navlinks" href="#"> Minhas viagens </a>
           <a className="navlinks" href="#"> Login  </a>
 
         </div>
@@ -33,9 +34,33 @@ function App() {
          </div>
 
         <div className="destinos">
-          <img src={tokyo}/>
-          <img src={newyork}/>
-          <img src={london}/>
+
+           <div className="conteiner">
+             <img src={tokyo} />
+
+
+           </div>
+
+          <div className="conteiner">
+            <img src={london}/>
+
+            
+          </div>
+
+           <div className="conteiner">
+             <img src={newyork} />
+
+            
+           </div>
+
+           <div className="conteiner">
+             <img src={rio} />
+
+            
+           </div>
+
+
+         
         </div>
 
       
